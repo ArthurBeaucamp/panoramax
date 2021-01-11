@@ -31,7 +31,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/reset.scss",
+              "src/styles/config.scss"
             ],
             "scripts": []
           },
@@ -94,7 +95,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/reset.scss",
+              "src/styles/config.scss"
             ],
             "scripts": []
           }
@@ -127,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "panoramax"
+  "defaultProject": "panoramax",
+  "cli": {
+    "analytics": "472d26f6-c0ef-4fc0-bfff-584e24a6e645"
+  }
 }
